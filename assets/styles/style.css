@@ -1,0 +1,372 @@
+body {
+  background-color: #f8f9fa;
+}
+/* home css */
+header h1 {
+  font-size: 3.5em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+header a.btn {
+  background-color: #212529;
+  font-size: 1.2em;
+  padding: 15px 30px;
+  color: #fff;
+}
+
+header a.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Custom Styles */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  background-color: #343a40;
+  padding: 1rem 0;
+}
+
+.navbar-brand {
+  color: #f8f9fa;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: #fff;
+  margin-right: 15px;
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  font-weight: bold;
+}
+
+header {
+  background-color: #ededed;
+  color: #000;
+  padding: 150px 0;
+  text-align: center;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  color: #fff;
+  background-color: #343a40;
+  padding: 2rem 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  header {
+    padding: 100px 0;
+  }
+
+  header h1 {
+    font-size: 2.5em;
+  }
+
+  header p {
+    font-size: 1.2em;
+  }
+
+  header a.btn-primary {
+    font-size: 1em;
+  }
+  .page-content .text-content {
+    font-size: 35px;
+  }
+  .blog-header .text-blog {
+    font-size: 35px;
+  }
+  .blog-header .lead {
+    font-size: 20px;
+  }
+}
+/* about css */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  background-color: #343a40;
+  padding: 1rem 0;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: #fff;
+  margin-right: 15px;
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  font-weight: bold;
+}
+
+.page-content {
+  padding: 4rem 0;
+}
+
+.about-section {
+  text-align: center;
+}
+
+.about-section h2 {
+  color: #343a40;
+}
+
+.about-section p {
+  color: #6c757d;
+}
+
+.about-image {
+  margin-top: 2rem;
+}
+
+footer {
+  color: #fff;
+  background-color: #343a40;
+  padding: 2rem 0;
+}
+.page-content h2 {
+  font-size: 60px;
+  font-weight: 500;
+}
+/* blog css */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.navbar {
+  background-color: #343a40;
+  padding: 1rem 0;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: #fff;
+  margin-right: 15px;
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  font-weight: bold;
+}
+
+.blog-header {
+  background-color: #f8f9fa;
+  color: #000;
+  text-align: center;
+  padding: 100px 0;
+  margin-bottom: 30px;
+}
+
+.blog-header h1 {
+  font-size: 3.5em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.blog-header p {
+  font-size: 1.5em;
+  margin-bottom: 40px;
+}
+
+.blog-post {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+  margin-bottom: 50px;
+}
+
+.blog-post:hover {
+  transform: scale(1.05);
+}
+
+.blog-post img {
+  width: 100%;
+  height: auto;
+}
+
+.blog-post .card-body {
+  padding: 20px;
+}
+
+footer {
+  color: #fff;
+  background-color: #343a40;
+  padding: 2rem 0;
+}
+/* contact css */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.navbar {
+  background-color: #343a40;
+  padding: 1rem 0;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: #fff;
+  margin-right: 15px;
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  font-weight: bold;
+}
+
+.contact-section {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 140px;
+  text-align: center;
+}
+
+.contact-section h2 {
+  color: #343a40;
+}
+
+.contact-form {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  height: 50px;
+}
+
+.submit-btn {
+  background-color: #343a40;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+footer {
+  color: #fff;
+  background-color: #343a40;
+  padding: 2rem 0;
+}
+.list-article .card-text {
+  color: #7a8187;
+}
+.list-group a {
+  text-decoration: none;
+  color: #000;
+}
+.list-group a:hover {
+  font-weight: bold;
+}
+/* blog-detail */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.blog-detail {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 2rem;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.blog-detail img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.blog-detail h2 {
+  color: #343a40;
+}
+
+.blog-detail p {
+  color: #6c757d;
+}
+
+footer {
+  color: #fff;
+  background-color: #343a40;
+  padding: 2rem 0;
+}
+/* social media */
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  font-size: 24px;
+  margin-right: 15px;
+  color: #fff;
+}
+
+.social-icons a:hover {
+  color: #7a8187;
+}
+
+footer {
+  color: #fff;
+  background-color: #343a40;
+  padding: 2rem 0;
+}
